@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--include bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--include jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--include pablo.js-->
+    <script src="./pablo.js"></script>
+    <!--include custom script file-->
+    <script src="script.js"></script>
+    <style>
+    #client {
+        height: 500px;
+        border: 1px solid black;
+    }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+   <div class="container">
+       <!--panel-->
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-md-2">
+                    <button id="line" class="btn btn-success">Line</button>
+                </div>
+                <div class="col-md-2">
+                        <button id="circle" class="btn btn-warning">Circle</button>
+                </div>
+                <div class="col-md-2">
+                        <button id="rectangle" class="btn btn-danger">Regtangle</button>
+                </div>
+                <div class="col-md-2">
+                        <button id="path" class="btn btn-primary">Path</button>
+                </div>
+               
+                
+            </div>
+            
+        </div>
+        <!--drawing area-->
+        <div id="client">
+            
+        </div>
+   </div>
+</body>
+</html>
